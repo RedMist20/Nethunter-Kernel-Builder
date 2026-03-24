@@ -1,6 +1,6 @@
 [  {
     "kernelSource": {
-      "name": "fogolineage",
+      "name": "fogo_nh_k1",
       "repo": "https://github.com/LineageOS/android_kernel_motorola_sm6375.git",
       "branch": "lineage-23.2",
       "device": "fogo"
@@ -20,8 +20,8 @@
     ],
     "params": {
       "ARCH": "arm64",
-      "CROSS_COMPILE": "aarch64-linux-gnu-",
-      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+      "CROSS_COMPILE": "aarch64-linux-android",
+      "CROSS_COMPILE_ARM32": "arm-linux-androideabi-",
       "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
       "AR": "llvm-ar",
