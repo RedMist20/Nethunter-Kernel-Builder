@@ -8,14 +8,9 @@
     "withKernelSU": false,
     "toolchains": [
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git",
-        "branch": "lineage-20.0",
-        "name": "android_prebuilts_clang_kernel_linux-x86_clang-r416183b"
-      },
-      {
-        "repo": "https://android.googlesource.com/toolchain/llvm-project",
-        "branch": "master",
-        "name": "llvm-project"
+        "repo": "https://git.codelinaro.org/clo/la/platform/prebuilts/clang/host/darwin-x86.git",
+        "branch": "android-platform-12.0.0_r10",
+        "name": "clang-r416183b1"
       }
     ],
     "params": {
